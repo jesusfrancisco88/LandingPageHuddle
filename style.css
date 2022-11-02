@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Open Sans";
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+.background-1 {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+
+/************/
+/***Header***/
+/************/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+}
+
+.btn--free:link,
+.btn--free:visited {
+  text-decoration: none;
+  color: hsl(192, 100%, 9%);
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+  border-radius: 20px;
+  background-color: hsla(192, 59%, 82%, 0.589);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.35s;
+
+  border: 1px solid rgba(85, 85, 85, 0.048);
+  cursor: pointer;
+}
+
+.btn--free:hover,
+.btn--free:active {
+  background-color: hsla(192, 59%, 82%, 0.966);
+  color: white;
+}
+
+/**************/
+/*Hero Section*/
+/**************/
+.hero-section {
+  padding: 1rem 0 9.6rem 0;
+  /****top/right/bottom/left*/
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+  align-items: center;
+}
+
+.grid-hero {
+  display: grid;
+  column-gap: 3rem;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-content {
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 2.2rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: hsl(210, 4%, 29%);
+  font-weight: 200;
+  font-family: "Open Sans";
+  margin-bottom: 3rem;
+}
+
+.hero-img {
+  height: 30rem;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 1rem 4rem;
+  color: white;
+  border-radius: 50px;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Open Sans";
+  font-weight: 200;
+  transition: all 0.3s;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: hsl(322, 97%, 58%);
+}
+
+/******************/
+/*Feature Section*/
+/****************/
+
+.feature-section {
+  padding: 8rem 0 9.6rem 0;
+  /*top/left/bottom/right */
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 7rem;
+}
+
+.img-feature {
+  height: 20rem;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  padding: 4rem 3rem;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.096);
+  margin-bottom: 2.3rem;
+  gap: 10rem;
+}
+
+.title-feature {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.text-feature {
+  line-height: 1.5;
+  font-size: 1rem;
+  color: hsl(210, 4%, 29%);
+  font-weight: 200;
+  font-family: "Open Sans";
+}
+
+/*******/
+/*footer*/
+/*******/
+.footer {
+  padding: 11rem 0 0rem 0;
+  border-top: 1px solid rgb(228, 221, 221);
+  background-color: hsl(191, 91%, 13%);
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 8rem;
+}
+
+.contact {
+  width: 80%;
+}
+
+.grid {
+  display: grid;
+  /* row-gap: 2rem; */
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.logo--footer {
+  margin: 0 auto;
+  padding: 0 8rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-ul {
+  display: flex;
+  list-style: none;
+  gap: 1.1rem;
+  color: white;
+  line-height: 1.5;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+
+  transition: all 2s;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  color: rgba(42, 158, 129, 0.767);
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  transition: all 3s;
+}
+
+.icono {
+  color: white;
+  height: 20px;
+  width: 20px;
+  padding: 0.5rem;
+  border-radius: 40px;
+  border: 1px solid white;
+}
+
+.social-link:link,
+.social-link:visited {
+  color: white;
+  transition: all 3s;
+}
+
+.social-link:hover,
+.social-link:active {
+  color: red;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4rem;
+  margin-top: 5rem;
+  color: white;
+  font-size: 0.7rem;
+  font-family: "Open Sans";
+}
+
+.secundary-title {
+  color: hsl(191, 91%, 13%);
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+}
+
+.container-stared {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 3rem;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.171);
+  z-index: 9999;
+  background-color: white;
+  top: 100%;
+  left: 25%;
+
+  position: absolute;
+}
+
+.get-stared {
+  position: relative;
+}
